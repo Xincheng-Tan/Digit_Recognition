@@ -1,4 +1,4 @@
-## 
+# 手写数字识别
 
 ## 1 Directory Structure
 - **`./data/`**: 存放 MNIST 数据集。train.py 自动创建文件夹并下载
@@ -84,4 +84,5 @@ pip install -r requirements.txt
 LeNet5_Dropout_0_05 在**测试集上的混淆矩阵**
 <p align="center">
   <img alt="LeNet5_Dropout_0_05 Confusion Matrix" src="./doc/LeNet5_Dropout_0_05 Confusion Matrix.png" width="98%">
+
 </p>
