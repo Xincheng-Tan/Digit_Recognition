@@ -11,8 +11,8 @@
     3. **LeNet5_Dropout_0_01**: 在 LeNet5 基础上，增加 1% dropout 层
     4. **LeNet5_Dropout_0_05**: 在 LeNet5 基础上，增加 5% dropout 层
     5. **LeNet5_Dropout_0_1**: 在 LeNet5 基础上，增加 10% dropout 层
-- **train.py**: 总训练代码，输出包括：
-- **test.py**: 总测试代码，输出包括：
+- **train.py**: 总训练代码
+- **test.py**: 总测试代码
 - **requirements.txt**: 库及版本
 
 ## 2 Installation
@@ -86,3 +86,4 @@ LeNet5_Dropout_0_05 在**测试集上的混淆矩阵**
   <img alt="LeNet5_Dropout_0_05 Confusion Matrix" src="./doc/LeNet5_Dropout_0_05 Confusion Matrix.png" width="98%">
 
 </p>
+
