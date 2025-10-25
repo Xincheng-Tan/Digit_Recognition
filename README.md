@@ -42,15 +42,14 @@ pip install -r requirements.txt
 
 以下文件被保存到 **`./train/`** 下：
 - **train.log**: 训练日志
-- **model_comparison_test_accuracy.png**: 
-- **model_comparison_test_loss.png**: 
+- **model_comparison_test_accuracy.png、model_comparison_test_loss.png**: 训练过程中，LeNet5 不同版本在**测试集上准确率和损失变化曲线**
 
 ## 4 Eval
 包括对上述所有模型权重的测试
 你可以一次测试多个模型、也可以通过“注释”的方法进行单个模型的测试
 以下文件被保存到 **`./test/`** 下：
 - **test.log**: 测试日志
-- **Decision Tree Confusion Matrix.png ...** : 各模型在测试集上的混淆矩阵
+- **Decision Tree Confusion Matrix.png ...** : 各模型在测试集上的**混淆矩阵**
 
 ## 5 Results
 **不同分类模型在测试集上的整体指标**
@@ -84,6 +83,4 @@ pip install -r requirements.txt
 LeNet5_Dropout_0_05 在**测试集上的混淆矩阵**
 <p align="center">
   <img alt="LeNet5_Dropout_0_05 Confusion Matrix" src="./doc/LeNet5_Dropout_0_05 Confusion Matrix.png" width="98%">
-
 </p>
-
