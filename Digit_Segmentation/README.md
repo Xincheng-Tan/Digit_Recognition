@@ -37,3 +37,8 @@ cd Digit_Segmentation & pip install -r requirements.txt
 <p align="center">
   <img alt="combined_class_loss" src="./doc/combined_class_loss.png" width="98%">
 </p>
+
+MultiTaskLeNet5 分割和数字分类结果
+<p align="center">
+  <img alt="avgpool_transpose" src="./doc/avgpool_transpose.png" width="98%">
+</p>
